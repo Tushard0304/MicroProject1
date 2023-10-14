@@ -16,32 +16,33 @@ body {
     height: 100vh;
 }
 #upper-container{
-    
-    width: 100vw;
-    height: 70vh;
+    /* background-color: red; */
+    width: 100%;
+    height: 70%;
     background: linear-gradient(rgb(122, 122, 26),rgb(57, 128, 57));
     padding: 3vw 6vw;
     display: flex;
     justify-content: space-between;
 }
 .content-container{
-    
-    width: 50vw;
+    /* background-color: rgb(179, 255, 0); */
+    width: 50%;
     height: auto;
     /* background-color: green; */
 }
 
 .content-container h1{
     font-size: 2.8vw;
-    font-weight: 800;
+    font-weight: 700;
     margin-bottom: 2vw;
+    width:fit-content
 }
 .content-container p{
     text-align:start;
     font-size: 1.5vw;
-    font-weight: 500;
+    /* font-weight: 500; */
     margin-bottom: 2vw;
-
+    width: 95%;
 }
 .content-container h5{
     font-size: 1.2vw;
@@ -52,35 +53,34 @@ body {
     font-size: 1vw;
     color: white;
     margin-left: 2vw;
-    margin-bottom: 2vw;
-
+    margin-top: 1vw;
+    
 }
 
 
 .img-container{
+    /* position: relative; */
+    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50vw;
-    height: auto;
-    /* background-color: yellow; */
-}
-.img-container img{
+    width: 50%;
     height: 100%;
 }
+.img-container img{
+    /* position: absolute; */
+   height: 480px;
+   width: fit-content;
+}
 
 
-input{
-    font-weight: 700;
-    padding: 10px;
-    background-color: rgb(0, 0, 0);
+.content-container input{
+    padding: 5px 20px;
+    background-color: rgb(255, 255, 255);
     color: white;
-    border-radius: 50px;
-    border: none;
-    /* margin: 5px; */
+    border-radius: 3px;
+    border: 3px solid black;
     cursor: pointer;
-    margin-bottom: 2vw;
-
 }
 button{
     font-weight: 700;
@@ -89,18 +89,15 @@ button{
     color: white;
     border-radius: 50px;
     border: none;
-    margin: 5px;
     cursor: pointer;
-    margin-bottom: 2vw;
-
 }
 button:hover{
     background-color: grey;
     color: white;
 }
 #footer-Container{
-    width: 100vw;
-    height: 30vh;
+    width: 100%;
+    height: 30%;
     background-color: black;
     padding: 2vw 4vw;
     display: flex;
